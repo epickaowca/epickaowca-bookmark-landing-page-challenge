@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { SetFeature } from '../../redux/action'
 
 const Wrapper = styled.div`
-margin-top: 50px;
+margin-top: 100px;
 & > div{
     &:nth-child(1){
         margin: auto;
