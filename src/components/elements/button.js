@@ -15,5 +15,11 @@ export const Button = styled.button`
         background: white;
     }
     ${p=>p.color==='special' && `background ${p.theme.color5}; color: ${p.theme.color4}; border: 2px solid ${p.theme.color5}; &:hover{border: 2px solid ${p.theme.color4}}`}
+    ${p=>p.special && `
+    border: 2px solid ${p.theme.color1};
+    &:hover{
+        border: 2px solid ${p.theme.color2};
+    }
+    `}
 `
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import img3 from '../../asset/logo-opera.svg'
 import bg from '../../asset/bg-dots.svg'
 import { Button } from '../elements/button'
 import styled from 'styled-components'

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import LandStructure from '../structure/LandStructure'
 import Ilustration1 from '../../asset/illustration-features-tab-1.svg'

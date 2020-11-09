@@ -13,7 +13,7 @@ const HeaderElem = styled.header`
     justify-content: space-between;
     z-index: 6;
     overflow: auto;
-    ${p=>p.navEject ? `background:${p.theme.color6};position: fixed; width: 100vw; min-height: 100vh;` : 'position: relative'}
+    ${p=>p.navEject ? `background:${p.theme.color6};position: fixed; top: 0; width: 100vw; min-height: 100vh;` : 'position: relative'}
     
     & > svg{
         position: relative;
@@ -30,6 +30,7 @@ const HeaderElem = styled.header`
         position: relative;
         width: 100%;
         min-height: unset;
+        top: unset;
 
         & > svg{
             & > g{
